@@ -36,5 +36,9 @@ li a{
     background-color: white;
     color: #5f9341;
     border: solid 1px #5f9341;
+    transition: transform 0.5s ease;
 
 }
+#delete-btn.clicked {
+    transform: scale(0.8); /* Scale the button to 80% of its original size when clicked */
+  }
